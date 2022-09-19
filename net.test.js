@@ -18,7 +18,7 @@ describe("Booking tickets", () => {
         await page.goto("http://qamid.tmweb.ru/client/index.php", {
             timeout: 60000,
         });
-        await clickElement(page, daysWeek);
+        await clickElement(page, daysWeek.thirdDay);
     });
 
 
